@@ -134,7 +134,8 @@ header .log-in {
 
 
 .service .service-title h2 {
-    color: var(--main-color) font-family: Suwannaphum;
+    color: var(--main-color);
+    font-family: Suwannaphum;
     font-size: 60px;
     font-weight: 700;
     line-height: 125%;
@@ -402,7 +403,7 @@ header .log-in {
 
 footer {
     background-color: var(--background) !important;
-    padding: 100px;
+    padding: 50px;
 }
 
 .footer .footer-left .icons .icon {
@@ -423,8 +424,8 @@ footer {
     margin: 15px 0;
 }
 
-.footer .copyright {
-    margin-top: 100px;
+footer .copyright {
+    margin-top:100px;
 }
 
 

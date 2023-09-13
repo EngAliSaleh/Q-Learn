@@ -403,7 +403,7 @@ header .log-in {
 
 footer {
     background-color: var(--background) !important;
-    padding: 50px;
+    padding: 60px 50px;
 }
 
 .footer .footer-left .icons .icon {

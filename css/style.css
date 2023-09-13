@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@400;700&display=swap');
+
+:root {
+    --white-color: #fff;
+    --background-color-hover: #007B80;
+    --main-color: #081223;
+    --gray-color: #65606D;
+    --background: #1B273D;
+    ;
+
+
+}
+
+/* Global Style */
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*  header style */
+
+header {
+    background: var(--background);
+}
+
+.logo {
+    color: var(--white-color);
+    font-size: 30px !important;
+}
+
+nav ul li a {
+    font-size: 20px !important;
+
+}
+
+nav ul li a.active {
+    font-weight: 700;
+}
+
+nav ul li a {
+    color: var(--white-color) !important;
+    font-family: Poppins;
+}
+
+
+
+.nav-buttons a {
+    font-family: Poppins;
+    color: var(--white-color) !important;
+    font-size: 22px;
+
+}
+
+header .log-in {
+    background-color: var(--background-color-hover);
+}
+
+
+
+
+/* Hero style  */
+
+#hero {
+    padding: 170px 0 !important;
+}
+
+.hero .hero-content h1 {
+    color: var(--white-color);
+    font-family: Suwannaphum;
+    font-size: 90px;
+}
+
+.hero .hero-content p {
+    color: var(--white-color);
+    font-family: Poppins;
+    font-size: 22px;
+    margin: 36px 0;
+}
+
+.hero .hero-buttons {
+    font-family: Poppins;
+    font-size: 22px;
+}
+
+.hero .hero-buttons a {
+    color: var(--white-color) !important;
+}
+
+.hero-buttons .Learn {
+    background-color: var(--background-color-hover);
+    font-family: Poppins;
+}
+
+.hero .buttons .Learn:hover {
+    background-color: var(--background-color-hover);
+}
+
+.hero .image img {
+    width: 100% !important;
+
+}
+
+/* Brands style  */
+
+.brands {
+    margin: 37px 0 55px 0;
+}
+
+.brands img {
+    width: 100% !important;
+    height: 120px !important;
+}
+
+/* Service style  */
+
+
+.service .service-title h2 {
+    color: var(--main-color) font-family: Suwannaphum;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.service .service-title P {
+    color: var(--gray-color);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    width: 42%;
+    margin: 0 auto;
+}
+
+.service-card .card {
+    margin-top: 81px;
+    border-radius: 10px;
+    background: var(--white-color);
+    border-radius: 20px;
+    background: var(--white-color);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+}
+
+
+
+.service-card .card .card-body h5 {
+    color: var(--main-color);
+    text-align: center;
+    font-family: Suwannaphum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.service-card .card .card-body p {
+    margin: 30px 0;
+    color: var(--gray-color);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.service-card .card:hover {
+    background-color: var(--background-color-hover);
+}
+
+.service-card .card:hover .card-body P,
+.service-card .card:hover .card-body h5 {
+    color: var(--white-color) !important;
+}
+
+/*  provide style */
+#provide {
+    margin-top: 83px;
+}
+
+.provide .provide-content h2 {
+    color: var(--main-color);
+    font-family: Suwannaphum;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 125%;
+
+}
+
+.provide .provide-content p {
+    color: var(--gray-color);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 36px 0;
+}
+
+/*  Course style */
+
+#course {
+    margin: 96px 0;
+    padding: 62px 0;
+    background-color: var(--background);
+
+}
+
+.course .course-title p {
+    width: 400.617px;
+    margin: 30px auto 101px;
+}
+
+.course .course-title {
+    color: var(--white-color);
+}
+
+.course .course-card .card {
+    border-radius: 20px;
+    background: var(--white-color);
+}
+
+.course .course-card .card .card-title {
+    color: var(--main-color);
+    font-family: Suwannaphum;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+
+}
+
+.course .course-card .card .card-text {
+    color: #6A6B6C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+
+}
+
+.course .course-card .card .card-ffoter .card-right a {
+    padding: 10px;
+    background-color: var(--background-color-hover);
+    color: var(--white-color);
+    border-radius: 18px;
+    font-size: 18px;
+}
+
+/* Swiper Style */
+.slider {
+    height: 550px !important;
+}
+
+.swiper-pagination-bullet {
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff
+}
+
+
+
+
+
+
+
+
+/*  Feedback style */
+
+#feedback {
+    margin-top: 97px;
+}
+
+.feedback .feedback-title h2 {
+    color: var(--main-color);
+    font-family: Suwannaphum;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 125%;
+
+}
+
+.feedback .feedback-title P {
+    color: var(--gray-color);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+    width: 44%;
+    margin: 0 auto;
+}
+
+.feedback-card .card {
+    margin-top: 81px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+    border: none !important;
+    padding: 30px;
+}
+
+
+
+
+.feedback-card .card .card-body p {
+    margin: 30px 0;
+}
+
+
+.feedback-card .card .card-title {
+    color: var(--main-color);
+    font-family: Suwannaphum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.feedback-card .card .card-text {
+    color: var(--gray-color);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+.feedback-card .card .card-footerr img {
+    width: 100%;
+    background: none;
+}
+
+
+
+.feedback-card .card .card-footerr .footer-content span {
+    color: var(--gray-color);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+
+}
+
+.feedback-card .card:hover {
+    background-color: var(--background-color-hover);
+}
+
+.feedback-card .card:hover .card-footerr .footer-content span,
+.feedback-card .card:hover .card-footerr .footer-content h6 {
+    color: var(--white-color) !important;
+}
+
+.feedback-card .card:hover .card-title,
+.feedback-card .card:hover .card-text {
+    color: var(--white-color);
+}
+
+.see-more {
+    margin: 69px 0 110px 0;
+
+}
+
+.see-more a {
+    padding: 10px 20px;
+    border-radius: 18px;
+    background: var(--background-color-hover);
+    color: var(--white-color);
+    font-size: 22px;
+}
+
+
+/* Footer Style */
+
+footer {
+    background-color: var(--background) !important;
+    padding: 100px;
+}
+
+.footer .footer-left .icons .icon {
+    background-color: var(--background-color-hover) !important;
+    padding: 3px 5px;
+}
+
+.footer .footer-right nav ul h4 {
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.footer .footer-right nav ul li a {
+    font-size: 15px !important;
+}
+
+.footer .footer-right nav ul li {
+    margin: 15px 0;
+}
+
+.footer .copyright {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Breakpoints */
+/* Responsive */
+
+
+
+@media only screen and (max-width: 768px) {
+
+    /*  Header style */
+    .navbar-collapse {
+        margin-top: 12px;
+    }
+
+    .nav-buttons a {
+        font-family: Poppins;
+        color: var(--white-color) !important;
+        font-size: 15px;
+    }
+
+
+    /*  Hero style */
+    #hero {
+        padding: 80px 0 !important;
+    }
+
+    .hero .hero-content h1 {
+
+        font-size: 30px;
+    }
+
+    .hero .image img {
+        width: 100% !important;
+        margin-top: 70px;
+    }
+
+    .hero .hero-content {
+        flex-direction: column !important;
+    }
+
+    .hero .hero-content p {
+        font-size: 10px;
+    }
+
+    /*  brands style */
+    .brands img {
+        width: 100% !important;
+        height: 130px !important;
+    }
+
+    /*  Services style */
+
+
+    .service .service-title h2 {
+        font-size: 30px;
+    }
+
+    .service .service-title P {
+        font-size: 15px;
+        width: 100%;
+    }
+
+
+    /*  provide style */
+
+    #provide {
+        margin: 50px 0 47px 0;
+    }
+
+    .provide .provide-content h2 {
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    .provide .provide-content {
+        text-align: center;
+    }
+
+    .provide .provide-content p {
+        font-size: 15px;
+    }
+
+    /*  feedback style */
+    .feedback .feedback-title h2 {
+        font-size: 30px;
+    }
+
+    .feedback .feedback-title p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .feedback-card .card {
+        padding: 0;
+    }
+
+
+
+    /*  Course style */
+    .course .course-title h2 {
+        font-size: 30px;
+    }
+
+    .course .course-title p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .course .course-card {
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    /* Footer Style */
+
+    footer {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .footer .footer-left .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        margin: 30px 0;
+    }
+
+    .footer .footer-left .icons .icon {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .footer .footer-left .icons .one {
+        margin-left: 30px;
+    }
+
+    .footer .footer-right {
+        margin: 20px 0;
+        gap: 50px;
+        flex-direction: column !important;
+    }
+
+
+
+
+
+
+}

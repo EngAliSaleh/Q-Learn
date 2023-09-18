@@ -413,7 +413,7 @@ footer {
 }
 
 .footer .footer-left .icons .icon {
-    background-color: var(--background-color-hover) !important;
+    background-color: var(--background-v-hover) !important;
     padding: 3px 5px;
 }
 
@@ -494,10 +494,10 @@ footer .copyright {
     }
 
     .hero .hero-content .hero-buttons {
-        
-      display: flex;
-      align-items: center;
-      justify-content: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
 
@@ -523,6 +523,10 @@ footer .copyright {
     .service .service-title P {
         font-size: 15px;
         width: 100%;
+    }
+
+    .service .card {
+        margin-top: 32px;
     }
 
 
@@ -558,6 +562,8 @@ footer .copyright {
 
     .feedback-card .card {
         padding: 0;
+        margin-top: 35px;
+
     }
 
 
@@ -592,7 +598,6 @@ footer .copyright {
         display: flex;
         flex-direction: column;
         align-items: center;
-
         justify-content: center !important;
     }
 
@@ -606,6 +611,23 @@ footer .copyright {
         gap: 100px;
     }
 
+
+
+    .footer .footer-right nav ul h4 {
+        color: var(--white-color);
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .footer .footer-right nav ul li a {
+        font-size: 20px !important;
+    }
+
+    footer .copyright {
+    font-size: 20px;
+    }
+    
+    
 
 
 
